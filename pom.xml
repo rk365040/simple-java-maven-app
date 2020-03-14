@@ -14,6 +14,13 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin -->
+<dependency>
+    <groupId>org.sonarsource.scanner.maven</groupId>
+    <artifactId>sonar-maven-plugin</artifactId>
+    <version>3.6.1.1688</version>
+</dependency>
+
   </dependencies>
   <properties>
     <maven.compiler.source>1.6</maven.compiler.source>
